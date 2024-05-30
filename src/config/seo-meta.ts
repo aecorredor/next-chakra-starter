@@ -1,27 +1,27 @@
 export const SEOMeta = {
-  title: 'DraftFantom',
-  titleTemplate: '%s - DraftFantom',
+  title: 'TODO-SEO-META-TITLE',
+  titleTemplate: '%s - TODO-SEO-META-TITLE',
   description:
-    'Play draft fantasy soccer leagues and games with your friends. Mix and match players from the Premier League, La Liga, Serie A, Bundesliga, Ligue 1, and more.',
+    'TODO SEO description.',
   openGraph: {
-    title: 'DraftFantom',
+    title: 'TODO-OPEN-GRAPH-TITLE',
     description:
-      'Play draft fantasy soccer leagues and games with your friends. Mix and match players from the Premier League, La Liga, Serie A, Bundesliga, Ligue 1, and more.',
+      'TODO SEO description.',
     type: 'website',
-    url: typeof window !== 'undefined' ? window.origin : 'https://draftfantom.com',
-    site_name: 'DraftFantom',
+    url: typeof window !== 'undefined' ? window.origin : 'https://TODO-domain.com',
+    site_name: 'TODO-SITE-NAME',
     images: [
       {
         url: '/images/android-chrome-512x512.png',
         width: '512',
         height: '512',
-        alt: 'DraftFantom Logo',
+        alt: 'TODO-SITE-NAME Logo',
       },
     ],
   },
   twitter: {
-    handle: '@draftfantom',
-    site: '@draftfantom',
+    handle: '@TODO-twitter-handle',
+    site: '@TODO-twitter-handle',
     cardType: 'summary_large_image',
   },
 } as const;
